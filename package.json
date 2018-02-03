@@ -25,7 +25,6 @@
     "webpack": "^3.10.0"
   },
   "dependencies": {
-    "uui": "^1.0.3",
     "uuid": "^3.2.1"
   }
 }
