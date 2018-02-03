@@ -1,4 +1,6 @@
 import React from 'react';
+import style from './TodoList.css';
+import Todo from "./Todo";
 
 
 class TodoList extends React.Component {
@@ -7,7 +9,9 @@ class TodoList extends React.Component {
 	}
 
 	render() {
-		return <ul>{"todo elements"}</ul>;
+    return  <ul className={style.todolist}>
+              <Todo/>
+            </ul>
 	}
 }
 

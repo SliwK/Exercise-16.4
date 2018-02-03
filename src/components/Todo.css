@@ -1,0 +1,19 @@
+li {
+  list-style: none;
+}
+
+div {
+  display: inline;
+  width: 100%;
+}
+.taskText {
+  font-weight: bold;
+  float: left;
+  padding-left: 20px;
+}
+
+.deleteButton {
+  color: red;
+  float: right;
+  padding:  0 20px
+}

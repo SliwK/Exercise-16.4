@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './Title.css';
 
 
 class Title extends React.Component {
@@ -7,7 +8,7 @@ class Title extends React.Component {
 	}
 
 	render() {
-		return <h1>{this.props.title}</h1>;
+		return <h1 className={style.title}>{this.props.title}</h1>;
 	}
 }
 
