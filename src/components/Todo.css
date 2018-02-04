@@ -1,3 +1,5 @@
+//tego chyba nie ma co oscylować bo i tak sam nie istnieje - widzimy go dopiero na liście todo - czyli do usuniecia!
+
 li {
   list-style: none;
 }
@@ -9,6 +11,7 @@ div {
 .taskText {
   font-weight: bold;
   float: left;
+  font-family: 'Montserrat', sans-serif;
   padding-left: 20px;
 }
 

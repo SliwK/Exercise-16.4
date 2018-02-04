@@ -1,23 +1,18 @@
 import React from 'react';
 import style from './Todo.css';
 
-class Todo extends React.Component {
-	constructor(props) {
-		super(props);
-	}
 
-	render() {
-		return  <li>
+const Todo = (props) => {
+			return  <li>
                 <div>
-                  <p className={style.taskText}>
-                      test zadania
-                  </p>
-                  <p className={style.deleteButton}>
-                      x
-                  </p>
+	                  <p className={style.taskText}>
+	                      "{props.content}"
+	                  </p>
+	                  <p className={style.deleteButton} onClick={props.removeTodo}>
+	                      x
+	                  </p>
                 </div>
-            </li>;
-	}
+            </li>
 }
 
 export default Todo;

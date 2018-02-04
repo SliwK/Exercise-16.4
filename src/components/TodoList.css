@@ -1,7 +1,17 @@
-.todolist{
+div{
   color: blue;
   font-style: italic;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
   padding: 0;
   width: 100%;
+}
+
+p {
+    display: inline;
+}
+
+.delButton {
+  float: right;
+  margin: 0;
+  padding-right: 20px;
 }
