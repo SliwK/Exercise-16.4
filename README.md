@@ -1,4 +1,4 @@
 # Exercise-16.4
 Webpack - loadery - lista zadań
 
-LINK:  https://sliwk.github.io/Exercise-16.4/
+Zadania od 16.4 do 16.7.
