@@ -6,13 +6,14 @@ var OptimizeJsPlugin = require('optimize-js-plugin');
 
 
 var env = process.env.NODE_ENV || 'development';
+
 var plugins = [
     new HtmlWebpackPlugin({
             template: 'src/index.html',
             filename: 'index.html',
             inject: 'body',
-        })
-    ];
+    })
+];
 
 console.log('NODE_ENV:', env);
 
