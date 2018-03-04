@@ -4,7 +4,7 @@
   "description": "WEBPACK - loadery",
   "main": "index.js",
   "scripts": {
-    "build": "SET NODE_ENV=production webpack",
+    "build": "NODE_ENV=production webpack",
     "start": "webpack-dev-server --inline --hot --config ./webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
