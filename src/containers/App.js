@@ -21,6 +21,7 @@ class App extends React.Component {
                     text: 'feed my cat'
                     }]
         };
+        this.addTodo = this.addTodo.bind(this);
     }
 
     addTodo(value){
@@ -28,9 +29,8 @@ class App extends React.Component {
             text: value,
             id: uuid.v4(),
         };
-        this.setState({
-          data: [...this.state.data, {todo}]
-        });
+        const data = [...this.state.data, todo];
+        this.setState({data});
     }
 
     removeTodo(id) {
